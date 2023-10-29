@@ -19,13 +19,13 @@ function App() {
       {status !== "error" && (
         <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>
           <Accordion.Item eventKey="0">
-            <Accordion.Header>Cats With Male Owners</Accordion.Header>
+            <Accordion.Header>{GenderEnum.male}</Accordion.Header>
             <Accordion.Body>
               <Pets pets={catsWithMaleOwners} title={"Title"} />
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Cats With Female Owners</Accordion.Header>
+            <Accordion.Header>{GenderEnum.female}</Accordion.Header>
             <Accordion.Body>
               <Pets pets={catsWithFemaleOwners} title={"Title"} />
             </Accordion.Body>
