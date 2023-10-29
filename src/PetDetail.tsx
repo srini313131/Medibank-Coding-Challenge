@@ -31,7 +31,7 @@ export function PetDetail() {
             </span>
           </Card.Text>
           <Card.Text className="d-flex" as={"div"}>
-            <span className="label">Friends:</span>
+            <span className="label">Co-pets:</span>
             <div className="d-flex flex-wrap">
               {friends.length > 0 &&
                 friends.map((pet) => (
