@@ -81,7 +81,7 @@ behavior: "smooth",
       )}
       <button onClick={handleLeftScroll}>left</button> <button onClick={handleRightScroll}>right</button> 
 
-<div ref={scrollRef} style={{width:'400px', height:'300px', backgroundColor:'red', overflowX:'scroll', display:'flex', padding:'12px'}}> 
+<div ref={scrollRef} className="scroll-container" style={{width:'400px', height:'300px', backgroundColor:'red', overflowX:'scroll', display:'flex', padding:'12px'}}> 
 
  
 
