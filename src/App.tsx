@@ -14,7 +14,7 @@ function App() {
   const catsWithFemaleOwners = cats.filter(
     (cat) => cat.owner.gender === GenderEnum.female
   );
-const scrollRef = useRef(); 
+const scrollRef = useRef<HTMLInputElement>(null) ; 
 
 const handleLeftScroll =()=>{ 
 
